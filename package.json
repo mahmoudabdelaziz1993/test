@@ -4,14 +4,24 @@
   "description": "",
   "main": "Api.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon Server/index.js",
+    "start": "node Server/index.js "
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.20.0"
+    "axios": "^0.20.0",
+    "body-parser": "*",
+    "cors": "*",
+    "ejs": "^3.1.5",
+    "express": "*",
+    "express-ejs-layouts": "^2.5.0",
+    "morgan": "*",
+    "oracledb": "^5.0.0"
   },
   "devDependencies": {
-    "dotenv": "^8.2.0"
+    "dotenv": "^8.2.0",
+    "nodemon": "*"
   }
 }

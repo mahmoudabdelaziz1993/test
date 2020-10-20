@@ -1,10 +1,8 @@
-const oracledb = require('oracledb');
+const oracledb  = require('oracledb');
 
 oracledb.outFormat = oracledb.OUT_FORMAT_OBJECT;
 
-const mypw = ...  // set mypw to the hr schema password
-
- const run = async () => {
+ export const querryOne = async () => {
 
   let connection;
 

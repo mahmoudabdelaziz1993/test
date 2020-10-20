@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('./partials/head'); %>
+<body class=" d-flex flex-column justify-content-center align-items-center " >
+    <header class="container-fluid p-0">
+        <%- include('./partials/nav'); %>
+    </header>   
+    <main class="w-100  flex-column  flex-grow-1 d-flex justify-content-center p-2">
+       <%- body %>
+    </main>
+    <footer class=" container-fluid p-0 bg-dark " style="position: absolute;bottom: 0;">
+        <%- include('./partials/footer'); %>
+    </footer >
+
+
+
+    <%- include('./partials/scripts'); %>
+</body>
+</html>
