@@ -10,10 +10,10 @@ const getTableData = async () => {
     connection = await oracledb.getConnection(connectionvar);
 
     const result = await connection.execute(
-      `select  inv_year inv_type inv_no from  sal_invh` ,
+      `` ,
     );
     let firstQuery = result.rows;
-    console.log('tableQuery output :' + firstQuery)
+    console.log('issuerQuery output :' + firstQuery)
     return firstQuery ;
 
     

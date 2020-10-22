@@ -7,8 +7,8 @@ const getCustomerData = require('../helpers/customerNum')
 
 router.get('/', async (req, res) => {
     try {
-        let ticket = await getTableData();
-        let keys = Object.keys(ticket)
+        let tickets = await getTableData();
+        let keys = Object.keys(tickets)
         res.render('pages/index', { tickets, keys });
     } catch (error) {
         res.status(500).send("sorry we can't help you ")
