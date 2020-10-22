@@ -1,6 +1,6 @@
 let connectionvar = {
-  user: 'masry',
-  password: 'masry',
+  user: 'alpha',
+  password: 'admin',
   connectString: 'orcl'
 }
 export { connectionvar }
